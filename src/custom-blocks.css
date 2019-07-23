@@ -1,0 +1,9 @@
+.container-with-header {
+  text-align: center;
+  color: purple;
+}
+
+.container-with-header--header {
+  font-size: 28px;
+  font-family: monospace;
+}

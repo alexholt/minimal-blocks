@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Open Sans", Helvetica, Arial, sans-serif;
+	font-size: 16px;
+}
+
+a,
+div {
+	outline: 0;
+}
+
+input {
+  border-style: solid;
+  border-width: 1px;
+}

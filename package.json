@@ -1,0 +1,32 @@
+{
+  "name": "minimal-blocks",
+  "version": "1.0.0",
+  "description": "Gutenberg demo",
+  "main": "src/index.js",
+  "repository": "https://github.com/alexholt/minimal-blocks",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --mode development -w",
+    "build": "webpack --mode development"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/preset-react": "^7.0.0",
+    "@wordpress/block-editor": "*",
+    "@wordpress/block-library": "*",
+    "@wordpress/components": "*",
+    "@wordpress/core-data": "*",
+    "@wordpress/editor": "*",
+    "@wordpress/element": "*",
+    "@wordpress/format-library": "*",
+    "babel-loader": "^8.0.6",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "css-loader": "^3.1.0",
+    "react-autosize-textarea": "^7.0.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.36.1",
+    "webpack-cli": "^3.3.6"
+  }
+}
